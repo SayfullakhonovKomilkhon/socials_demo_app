@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Elite Coffee -->
+    <style name="Base.Theme.EliteCoffee" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Elite Coffee brand colors -->
+        <item name="colorPrimary">@color/elite_gold</item>
+        <item name="colorPrimaryDark">@color/elite_brown</item>
+        <item name="colorAccent">@color/elite_gold</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/elite_background</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        
+        <!-- Window flags for immersive experience -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.EliteCoffee" parent="Base.Theme.EliteCoffee" />
+</resources>

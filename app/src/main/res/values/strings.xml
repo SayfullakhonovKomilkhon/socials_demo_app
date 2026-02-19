@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Elite Coffee</string>
+    <string name="welcome_morning">Доброе утро! Начнем день с ароматного кофе!</string>
+    <string name="welcome_evening">Добрый вечер! Уютный вечер с любимым напитком</string>
+    <string name="recommended_today">Рекомендуем сегодня</string>
+    <string name="sweet_treats">Сладкие удовольствия</string>
+    <string name="breakfast_all_day">Завтрак с утра до вечера</string>
+    <string name="book_table">Забронировать</string>
+    <string name="explore_menu">Открыть меню</string>
+</resources>

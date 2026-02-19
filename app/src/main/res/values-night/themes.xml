@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Elite Coffee Night Theme -->
+    <style name="Base.Theme.EliteCoffee" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Elite Coffee evening colors -->
+        <item name="colorPrimary">@color/elite_neon_blue</item>
+        <item name="colorPrimaryDark">@color/elite_deep_indigo</item>
+        <item name="colorAccent">@color/elite_neon_blue</item>
+        
+        <!-- Dark theme background -->
+        <item name="android:colorBackground">@color/elite_deep_indigo</item>
+        
+        <!-- Status bar for dark theme -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>
